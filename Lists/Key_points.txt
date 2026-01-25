@@ -1,0 +1,11 @@
+##Key Points to Remember
+
+Lists are ordered - items stay in the order you put them
+Lists are mutable - you can change, add, or remove items
+Indexing starts at 0 - first item is index 0, not 1
+Negative indices count from the end - [-1] is the last item
+Slicing is exclusive at the end - [0:3] gives indices 0, 1, 2 (not 3)
+.append() adds to end, .insert() adds at specific position
+.remove() removes by value, .pop() removes by index
+Use in to check if something exists in a list
+.sort() modifies the list, sorted() creates a new list
