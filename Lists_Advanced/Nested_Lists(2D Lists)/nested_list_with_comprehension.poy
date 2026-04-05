@@ -1,0 +1,19 @@
+"""
+Docstring for Nested List Comprehensions"""
+
+
+# create a 3x4 grid filled with zeros
+# one way to do it
+grid1 = [
+    [0, 0, 0, 0],
+    [0, 0, 0, 0],
+    [0, 0, 0, 0]
+]
+
+# second way
+very nice and profi, creates the same just with one sentence
+grid2 = [[0 for col in range(4) for row in range(3)]]
+
+# create multiplication tabele(5x5)
+# also in one sentence but profi and done in one sentence
+tabele[[row * col for col in range (1, 6)] for row in range(1, 6)] 

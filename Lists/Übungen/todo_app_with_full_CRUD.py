@@ -49,10 +49,14 @@ Choose an option: 3
 Enter task number to complete: 2
 Task 'Finish homework' completed!"""
 
+import os  # this import means that we can use operating system functionalities
+
 
 def todo_app():
     todo_list = []
     while True:
+        os.system('cls') # clrearing the screen on windows
+
         print("===To Do Menagment App===")
         print("Menu: ")
         print("1. Add a task:")
@@ -114,14 +118,5 @@ def todo_app():
             break
         else:
             print("Invalid option. Please try again.\n")
-
-            
-        
-
-
-
-
-
-            
 
 todo_app()            

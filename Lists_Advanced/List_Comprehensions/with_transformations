@@ -1,0 +1,17 @@
+"""
+Docstrings for List Comprehensions"""
+
+
+
+# With Transformations:
+
+
+#Multiple each number by 10, but only if its odd
+numbers = [1,2,3,4,5]
+result = [n * 10 for n in numbers if n % 2 == 1] # variable n * 10 in the for loop to be multipleid only with the odd numbers n % 2 == 1,
+print(result) # 10,30,40
+
+# get lenghts of strings
+words = ["cat", "elephant", "dog"]
+lenghts = [len(word) for word in words]
+print(lenghts)

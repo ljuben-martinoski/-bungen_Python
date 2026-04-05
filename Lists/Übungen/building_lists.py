@@ -20,7 +20,10 @@ def shoping_list():
 
     shoping_list = []
     shoping_list = fruits + vegetables + proteins
+    for i in range(len(shoping_list)):#
+        print()
     print(f"In the todays shoping list we have : {len(shoping_list)} number of items")
+    print()
 
 shoping_list()    
 
