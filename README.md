@@ -4,7 +4,7 @@ This repository contains Python coding exercises and solutions.
 
 ## Language
 
-All coding comments, variable names, and code structure are written in **German**.
+It is a mix of English and German, in the comments but 90 %  is English
 
 ## Files
 
