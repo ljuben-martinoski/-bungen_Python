@@ -2,7 +2,7 @@
 
 # a) Flatten this nested list: [[1, 2], [3, 4, 5], [6]]
 # b) Find the index of the maximum value in [23, 67, 12, 89, 45]
-# c) Create pairs from two lists: [1,2,3] and ['a','b','c'] → 
+# c) Create pairs from two lists: [1,2,3] and ['a','b','c'] →
 # ->[(1,'a'), (2,'b'), (3,'c')]
 # d) Remove duplicates from [1, 2, 2, 3, 4, 3, 5, 1] while preserving order
 
@@ -25,17 +25,17 @@ print(f"Max: {max_value} at index {max_index}")
 
 numb = [1, 2, 3]
 leter = ['a', 'b', 'c']
-# list ()- funktion that converts other data types in lists, zip() funktion 
-# that takes elements from the same position 
+# list ()- funktion that converts other data types in lists, zip() funktion
+# that takes elements from the same position
 # in each list and pairs them together
-combination = list(zip(numb, leter)) 
+combination = list(zip(numb, leter))
 print(combination)
 
 # d)
 
 original = [1, 2, 2, 3, 4, 3, 5, 1]
 rem_duplicates = []
-# with list comprehesions, with .append() in the empty list 
+# with list comprehesions, with .append() in the empty list
 [rem_duplicates.append(x) for x in original if original not in rem_duplicates]  
 # then with for loop to select and remove the duplicates
 print(rem_duplicates)
