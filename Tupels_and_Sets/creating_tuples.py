@@ -54,10 +54,23 @@ print(name)  # Alice
 print(age)  # 30
 print(city)  # Munich
 
+
 # Practical magic — functions can "return multiple values" using tuples:
 def get_min_max(numbers):
     return min(numbers), max(numbers)  # returns a tuple
 
+
 low, high = get_min_max([4, 1, 9, 2, 7])
 print(low)  # 1
 print(high)  # 9
+
+# Useful Tuple Operations 
+colors = ("red", "green", "blue", "green")
+
+len(colors)
+colors.count("green")  # 2  how m any times does "green appear?"
+colors.index("blue")  #  2 at what index is "blue"
+
+"red" in colors  # True
+
+more = colors + ("yellow",)

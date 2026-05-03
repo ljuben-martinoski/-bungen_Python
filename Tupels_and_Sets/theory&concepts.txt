@@ -1,0 +1,13 @@
+Today's Objectives
+
+Understand tuples and why immutability is useful
+Master tuple packing and unpacking
+Understand sets and their unique properties
+Perform set operations (union, intersection, difference)
+Know when to use tuples vs sets vs lists
+
+
+ Theory & Concepts
+
+What is a Tuple?
+A tuple is like a list, but frozen — once created, it cannot be changed. You write it with parentheses instead of square brackets.
