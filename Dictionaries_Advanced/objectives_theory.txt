@@ -1,0 +1,20 @@
+
+Objectives
+
+-Write dictionary comprehensions (the dict equivalent of list comprehensions)
+-Work with nested dictionaries (dicts inside dicts)
+-Loop through dictionaries efficiently using .items()
+-Use collections.Counter for frequency counting
+-Know when to reach for defaultdict instead of a regular dict
+
+
+Theory:
+
+-Just like list comprehensions you can build also dictionarys in one line (elegant)
+
+- Nested Dictionarys meand theat you can include a dictionary inseide another dictionary-this lests you model,
+structured,real-world data.
+
+
+
+
