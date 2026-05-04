@@ -44,6 +44,15 @@ company = {
 
 
 print(company["engineering"]["lead"])
-print(company["marketing"]["engineering"]["support"]["headcount"][sum])
-print(company["support"])
+total_headcount = sum(dept["headcount"]for dept in company.values())
+print(f"Toatal headcount: {total_headcount}")
+
+def get_budget(dept_name):
+    return company[dept_name]["budget"]
+
+highest_budget_dept = max(company, key=get_budget)
+print(f"Abteilung mit dem hochstem Budget ist: {highest_budget_dept}")
+
+
+
 
