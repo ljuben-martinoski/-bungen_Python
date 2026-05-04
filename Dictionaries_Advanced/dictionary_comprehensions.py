@@ -5,7 +5,6 @@ Just like list comprehensions we  can create dictionarys comprehensions in one e
 # Basic syntax: {key_expr: value_expr for item in iterable}
 
 # regular approach
-
 squares = {}
 
 for n in range(1, 6):
@@ -13,7 +12,7 @@ for n in range(1, 6):
 
 print(squares)
 
-# comprehension approach - same result, one line
+# comprehension approach - same result, one lines
 squares = {n: n ** 2 for n in range(1, 6)}
 
 # with a coindition(filter)
@@ -24,3 +23,9 @@ print(even_squares)
 original = {"a": 1, "b": 2, "c": 3}
 inverted = {v: k for k, v in original.items()}
 print(inverted)
+
+# from two,  paralel lists - very common patern
+names = ["Alice ", "Bob", "Carol"]
+scores = [88, 92, 79]
+gradebook = {name: score for name, score in zip(names, scores)}
+print(gradebook)
